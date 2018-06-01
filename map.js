@@ -2,9 +2,7 @@
 
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
-lib.ssMetadata = [
-		{name:"map_atlas_", frames: [[0,0,812,183],[814,0,160,216],[0,185,39,5]]}
-];
+lib.ssMetadata = [];
 
 
 // symbols:
@@ -12,24 +10,21 @@ lib.ssMetadata = [
 
 
 (lib.map_1 = function() {
-	this.spriteSheet = ss["map_atlas_"];
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.map_1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,812,183);
 
 
 (lib.pin_2x = function() {
-	this.spriteSheet = ss["map_atlas_"];
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.pin_2x);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,160,216);
 
 
 (lib.pin_shadow = function() {
-	this.spriteSheet = ss["map_atlas_"];
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-// helper functions:
+	this.initialize(img.pin_shadow);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,39,5);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -301,7 +296,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/map_atlas_.png?1527849904108", id:"map_atlas_"}
+		{src:"images/map_1.png", id:"map_1"},
+		{src:"images/pin_2x.png", id:"pin_2x"},
+		{src:"images/pin_shadow.png", id:"pin_shadow"}
 	],
 	preloads: []
 };
