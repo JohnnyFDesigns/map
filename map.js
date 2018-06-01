@@ -48,6 +48,23 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	}
 
 
+(lib.Symbol4 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#FFFFFF").ss(1,1,1).p("AobroIQ3AAIAAXRIw3AAg");
+	this.shape.setTransform(54,74.5);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FFFFFF").s().p("AobLpIAA3RIQ3AAIAAXRg");
+	this.shape_1.setTransform(54,74.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.Symbol4, new cjs.Rectangle(-1,-1,110,151), null);
+
+
 (lib.Symbol3 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -100,10 +117,36 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 		   Keep the quotation marks ("").
 		*/
 		
+		this.movieClip_3.addEventListener("click", fl_ClickToGoToWebPage);
+		
+		function fl_ClickToGoToWebPage() {
+			window.open("http://www.adobe.com/3", "_blank");
+		}
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.movieClip_2.addEventListener("click", fl_ClickToGoToWebPage);
+		
+		function fl_ClickToGoToWebPage() {
+			window.open("http://www.adobe.com/2", "_blank");
+		}
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
 		this.movieClip_1.addEventListener("click", fl_ClickToGoToWebPage);
 		
 		function fl_ClickToGoToWebPage() {
-			window.open("http://www.adobe.com", "_self");
+			window.open("http://www.adobe.com/1", "_blank");
 		}
 	}
 
@@ -127,11 +170,9 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Pin 2
 	this.instance_2 = new lib.Symbol3();
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(141.6,141,1,1,0,0,0,29.6,40);
-	this.instance_2.filters = [new cjs.ColorFilter(0.51, 0.51, 0.51, 1, 0, 0, 0, 0)];
-	this.instance_2.cache(-2,-2,63,84);
+	this.instance_2.setTransform(141.6,125,1,1,0,0,0,29.6,40);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(80));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(2).to({y:126.5},0).wait(1).to({y:129.5},0).wait(1).to({y:132.5},0).wait(1).to({y:135.5},0).wait(1).to({y:138.5},0).wait(1).to({y:141.5},0).wait(1).to({y:144.5},0).wait(1).to({scaleY:0.93,x:141.4,y:148},0).wait(1).to({scaleY:0.86,x:141.2,y:151.5},0).wait(1).to({scaleY:0.93,y:148.9},0).wait(1).to({scaleY:1,y:146.3},0).wait(1).to({x:141.3,y:143.7},0).wait(1).to({y:141.1},0).wait(1).to({x:141.4,y:138.4},0).wait(1).to({y:135.8},0).wait(1).to({x:141.5,y:133.1},0).wait(1).to({x:141.6,y:126.5},0).wait(1).to({y:129.5},0).wait(1).to({y:132.5},0).wait(1).to({y:135.5},0).wait(1).to({y:138.5},0).wait(1).to({y:141.5},0).wait(1).to({y:144.5},0).wait(1).to({scaleY:0.93,x:141.4,y:148},0).wait(1).to({scaleY:0.86,x:141.2,y:151.5},0).wait(1).to({scaleY:0.93,y:148.9},0).wait(1).to({scaleY:1,y:146.3},0).wait(1).to({x:141.3,y:143.7},0).wait(1).to({y:141.1},0).wait(1).to({x:141.4,y:138.4},0).wait(1).to({y:135.8},0).wait(1).to({x:141.5,y:133.1},0).wait(1).to({x:141.6,y:126.5},0).wait(1).to({y:129.5},0).wait(1).to({y:132.5},0).wait(1).to({y:135.5},0).wait(1).to({y:138.5},0).wait(1).to({y:141.5},0).wait(1).to({y:144.5},0).wait(1).to({scaleY:0.93,x:141.4,y:148},0).wait(1).to({scaleY:0.86,x:141.2,y:151.5},0).wait(1).to({scaleY:0.93,y:148.9},0).wait(1).to({scaleY:1,y:146.3},0).wait(1).to({x:141.3,y:143.7},0).wait(1).to({y:141.1},0).wait(1).to({x:141.4,y:138.4},0).wait(1).to({y:135.8},0).wait(1).to({x:141.5,y:133.1},0).wait(1).to({x:141.6,y:126.5},0).wait(1).to({y:129.5},0).wait(1).to({y:132.5},0).wait(1).to({y:135.5},0).wait(1).to({y:138.5},0).wait(1).to({y:141.5},0).wait(1).to({y:144.5},0).wait(1).to({scaleY:0.93,x:141.4,y:148},0).wait(1).to({scaleY:0.86,x:141.2,y:151.5},0).wait(1).to({scaleY:0.93,y:148.9},0).wait(1).to({scaleY:1,y:146.3},0).wait(1).to({x:141.3,y:143.7},0).wait(1).to({y:141.1},0).wait(1).to({x:141.4,y:138.4},0).wait(1).to({y:135.8},0).wait(1).to({x:141.5,y:133.1},0).wait(1).to({x:141.6,y:126.5},0).wait(1).to({y:130.1},0).wait(1).to({y:133.7},0).wait(1).to({y:137.3},0).wait(1).to({y:140.9},0).wait(1).to({y:144.5},0).wait(1).to({scaleY:0.93,x:141.4,y:148},0).wait(1).to({scaleY:0.86,x:141.2,y:151.5},0).wait(1).to({scaleY:0.93,y:148.9},0).wait(1).to({scaleY:1,y:146.3},0).wait(1).to({x:141.3,y:143},0).wait(1).to({y:139.7},0).wait(1).to({x:141.4,y:136.4},0).wait(1).to({x:141.5,y:133.1},0).wait(1));
 
 	// Pin 2 shadow
 	this.instance_3 = new lib.pin_shadow();
@@ -143,11 +184,9 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Pin 3
 	this.instance_4 = new lib.Symbol3();
 	this.instance_4.parent = this;
-	this.instance_4.setTransform(258.7,96.6,0.812,0.812,0,0,0,29.7,40.1);
-	this.instance_4.filters = [new cjs.ColorFilter(0.51, 0.51, 0.51, 1, 0, 0, 0, 0)];
-	this.instance_4.cache(-2,-2,63,84);
+	this.instance_4.setTransform(258.6,72.9,1,1,0,0,0,29.6,40);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(80));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(5).to({y:76.5},0).wait(1).to({y:80.1},0).wait(1).to({y:83.7},0).wait(1).to({y:87.3},0).wait(1).to({y:90.9},0).wait(1).to({scaleY:0.93,x:258.3,y:94.4},0).wait(1).to({scaleY:0.86,x:258.1,y:97.9},0).wait(1).to({scaleY:0.93,y:95.3},0).wait(1).to({scaleY:1,x:258.2,y:92.7},0).wait(1).to({y:89.4},0).wait(1).to({x:258.3,y:86.1},0).wait(1).to({x:258.4,y:82.8},0).wait(1).to({y:79.5},0).wait(1).to({x:258.5,y:76.2},0).wait(1).to({x:258.6,y:72.9},0).wait(2).to({y:76.5},0).wait(1).to({y:80.1},0).wait(1).to({y:83.7},0).wait(1).to({y:87.3},0).wait(1).to({y:90.9},0).wait(1).to({scaleY:0.93,x:258.3,y:94.4},0).wait(1).to({scaleY:0.86,x:258.1,y:97.9},0).wait(1).to({scaleY:0.93,y:95.3},0).wait(1).to({scaleY:1,x:258.2,y:92.7},0).wait(1).to({y:89.4},0).wait(1).to({x:258.3,y:86.1},0).wait(1).to({x:258.4,y:82.8},0).wait(1).to({y:79.5},0).wait(1).to({x:258.5,y:76.2},0).wait(1).to({x:258.6,y:72.9},0).wait(2).to({y:76.5},0).wait(1).to({y:80.1},0).wait(1).to({y:83.7},0).wait(1).to({y:87.3},0).wait(1).to({y:90.9},0).wait(1).to({scaleY:0.93,x:258.3,y:94.4},0).wait(1).to({scaleY:0.86,x:258.1,y:97.9},0).wait(1).to({scaleY:0.93,y:95.3},0).wait(1).to({scaleY:1,x:258.2,y:92.7},0).wait(1).to({y:89.4},0).wait(1).to({x:258.3,y:86.1},0).wait(1).to({x:258.4,y:82.8},0).wait(1).to({y:79.5},0).wait(1).to({x:258.5,y:76.2},0).wait(1).to({x:258.6,y:72.9},0).wait(2).to({y:76.5},0).wait(1).to({y:80.1},0).wait(1).to({y:83.7},0).wait(1).to({y:87.3},0).wait(1).to({y:90.9},0).wait(1).to({scaleY:0.93,x:258.3,y:94.4},0).wait(1).to({scaleY:0.86,x:258.1,y:97.9},0).wait(1).to({scaleY:0.93,y:95.3},0).wait(1).to({scaleY:1,x:258.2,y:92.7},0).wait(1).to({y:89.4},0).wait(1).to({x:258.3,y:86.1},0).wait(1).to({x:258.4,y:82.8},0).wait(1).to({y:79.5},0).wait(1).to({x:258.5,y:76.2},0).wait(1).to({x:258.6,y:72.9},0).wait(2).to({y:77.4},0).wait(1).to({y:81.9},0).wait(1).to({y:86.4},0).wait(1).to({y:90.9},0).wait(1).to({scaleY:0.86,x:258.1,y:97.9},0).wait(1).to({scaleY:0.93,y:95.3},0).wait(1).to({scaleY:1,x:258.2,y:92.7},0).wait(1).to({x:258.3,y:87.8},0).wait(1).to({x:258.4,y:82.8},0).wait(1).to({x:258.5,y:77.9},0).wait(1).to({x:258.6,y:72.9},0).wait(1));
 
 	// Pin 3 shadow
 	this.instance_5 = new lib.pin_shadow();
@@ -204,12 +243,44 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(80));
 
-	// Map
-	this.instance_12 = new lib.map_1();
+	// Pin 7
+	this.instance_12 = new lib.Symbol3();
 	this.instance_12.parent = this;
-	this.instance_12.setTransform(0,69);
+	this.instance_12.setTransform(535.7,154.6,0.812,0.812,0,0,0,29.7,40.1);
+	this.instance_12.filters = [new cjs.ColorFilter(0.51, 0.51, 0.51, 1, 0, 0, 0, 0)];
+	this.instance_12.cache(-2,-2,63,84);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(80));
+
+	// Pin 7 shadow
+	this.instance_13 = new lib.pin_shadow();
+	this.instance_13.parent = this;
+	this.instance_13.setTransform(520,188,0.812,0.812);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(80));
+
+	// Map
+	this.instance_14 = new lib.map_1();
+	this.instance_14.parent = this;
+	this.instance_14.setTransform(0,69);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(80));
+
+	// pin_3
+	this.movieClip_3 = new lib.Symbol1();
+	this.movieClip_3.name = "movieClip_3";
+	this.movieClip_3.parent = this;
+	this.movieClip_3.setTransform(142.6,137.6,0.344,0.475,0,0,0,0.1,0.2);
+
+	this.timeline.addTween(cjs.Tween.get(this.movieClip_3).wait(80));
+
+	// pin_2
+	this.movieClip_2 = new lib.Symbol4();
+	this.movieClip_2.name = "movieClip_2";
+	this.movieClip_2.parent = this;
+	this.movieClip_2.setTransform(255.1,88.6,1,1,0,0,0,54,74.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.movieClip_2).wait(80));
 
 	// pin_1
 	this.movieClip_1 = new lib.Symbol1();
@@ -220,7 +291,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get(this.movieClip_1).wait(80));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(412.5,208,812,194);
+p.nominalBounds = new cjs.Rectangle(412.5,163.6,812,238.5);
 // library properties:
 lib.properties = {
 	id: '37679E28A1224BAAB7D259BCF0389678',
@@ -230,7 +301,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/map_atlas_.png", id:"map_atlas_"}
+		{src:"images/map_atlas_.png?1527849904108", id:"map_atlas_"}
 	],
 	preloads: []
 };
