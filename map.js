@@ -21,6 +21,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,812,183);
 p.nominalBounds = new cjs.Rectangle(0,0,160,216);
 
 
+(lib.pin_dark = function() {
+	this.initialize(img.pin_dark);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,160,216);
+
+
 (lib.pin_shadow = function() {
 	this.initialize(img.pin_shadow);
 }).prototype = p = new cjs.Bitmap();
@@ -191,11 +197,9 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(80));
 
 	// Pin 4
-	this.instance_6 = new lib.Symbol3();
+	this.instance_6 = new lib.pin_dark();
 	this.instance_6.parent = this;
-	this.instance_6.setTransform(489.6,101.9,1.097,1.093,0,0,0,29.7,40.1);
-	this.instance_6.filters = [new cjs.ColorFilter(0.51, 0.51, 0.51, 1, 0, 0, 0, 0)];
-	this.instance_6.cache(-2,-2,63,84);
+	this.instance_6.setTransform(455,51,0.432,0.432);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(80));
 
@@ -207,11 +211,9 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(80));
 
 	// Pin 5
-	this.instance_8 = new lib.Symbol3();
+	this.instance_8 = new lib.pin_dark();
 	this.instance_8.parent = this;
-	this.instance_8.setTransform(690.6,151.9,1.097,1.093,0,0,0,29.7,40.1);
-	this.instance_8.filters = [new cjs.ColorFilter(0.51, 0.51, 0.51, 1, 0, 0, 0, 0)];
-	this.instance_8.cache(-2,-2,63,84);
+	this.instance_8.setTransform(658,108,0.403,0.403);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(80));
 
@@ -222,30 +224,23 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(80));
 
-	// Pin 6
-	this.instance_10 = new lib.Symbol3();
+	// Pin 6 shadow
+	this.instance_10 = new lib.pin_shadow();
 	this.instance_10.parent = this;
-	this.instance_10.setTransform(585.7,105.6,0.812,0.812,0,0,0,29.7,40.1);
-	this.instance_10.filters = [new cjs.ColorFilter(0.51, 0.51, 0.51, 1, 0, 0, 0, 0)];
-	this.instance_10.cache(-2,-2,63,84);
+	this.instance_10.setTransform(570,138,0.812,0.812);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(80));
 
-	// Pin 6 shadow
-	this.instance_11 = new lib.pin_shadow();
-	this.instance_11.parent = this;
-	this.instance_11.setTransform(570,138,0.812,0.812);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(80));
-
 	// Pin 7
-	this.instance_12 = new lib.Symbol3();
-	this.instance_12.parent = this;
-	this.instance_12.setTransform(535.7,154.6,0.812,0.812,0,0,0,29.7,40.1);
-	this.instance_12.filters = [new cjs.ColorFilter(0.51, 0.51, 0.51, 1, 0, 0, 0, 0)];
-	this.instance_12.cache(-2,-2,63,84);
+	this.instance_11 = new lib.pin_dark();
+	this.instance_11.parent = this;
+	this.instance_11.setTransform(563,75,0.293,0.293);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(80));
+	this.instance_12 = new lib.pin_dark();
+	this.instance_12.parent = this;
+	this.instance_12.setTransform(512,124,0.299,0.299);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_12},{t:this.instance_11}]}).wait(80));
 
 	// Pin 7 shadow
 	this.instance_13 = new lib.pin_shadow();
@@ -298,6 +293,7 @@ lib.properties = {
 	manifest: [
 		{src:"images/map_1.png", id:"map_1"},
 		{src:"images/pin_2x.png", id:"pin_2x"},
+		{src:"images/pin_dark.png", id:"pin_dark"},
 		{src:"images/pin_shadow.png", id:"pin_shadow"}
 	],
 	preloads: []
