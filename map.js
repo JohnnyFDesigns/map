@@ -121,7 +121,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 		this.movieClip_3.addEventListener("click", fl_ClickToGoToWebPage);
 		
 		function fl_ClickToGoToWebPage() {
-			window.open("http://www.adobe.com/3", "_blank");
+			window.open("/incentives/love-our-network-2018/helping-you-help-customers-and-o2…/", "_blank");
 		}
 		/* Click to Go to Web Page
 		Clicking on the specified symbol instance loads the URL in a new browser window.
@@ -134,7 +134,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 		this.movieClip_2.addEventListener("click", fl_ClickToGoToWebPage);
 		
 		function fl_ClickToGoToWebPage() {
-			window.open("http://www.adobe.com/2", "_blank");
+			window.open("/incentives/love-our-network-2018/what’s-exciting-your-rls-about-our-network/", "_blank");
 		}
 		/* Click to Go to Web Page
 		Clicking on the specified symbol instance loads the URL in a new browser window.
@@ -147,7 +147,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 		this.movieClip_1.addEventListener("click", fl_ClickToGoToWebPage);
 		
 		function fl_ClickToGoToWebPage() {
-			window.open("http://www.adobe.com/1", "_blank");
+			window.open("/incentives/love-our-network-2018/did-you-know…/", "_blank");
 		}
 	}
 
