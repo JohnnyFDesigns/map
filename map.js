@@ -97,11 +97,12 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("A4wUjMAAAgpFMAxhAAAMAAAApFg");
+	this.shape.graphics.f("#FFFFFF").s().p("A+VR0IcqyEIcQzBMADxAmjg");
+	this.shape.setTransform(-35.7,8.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.Symbol1, new cjs.Rectangle(-158.4,-131.5,317,263), null);
+}).prototype = getMCSymbolPrototype(lib.Symbol1, new cjs.Rectangle(-229.9,-115.3,388.4,246.8), null);
 
 
 // stage content:
@@ -261,7 +262,6 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.movieClip_3.name = "movieClip_3";
 	this.movieClip_3.parent = this;
 	this.movieClip_3.setTransform(142.6,137.6,0.344,0.475,0,0,0,0.1,0.2);
-	this.movieClip_3.alpha = 0;
 
 	this.timeline.addTween(cjs.Tween.get(this.movieClip_3).wait(80));
 
@@ -269,8 +269,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.movieClip_2 = new lib.Symbol4();
 	this.movieClip_2.name = "movieClip_2";
 	this.movieClip_2.parent = this;
-	this.movieClip_2.setTransform(255.1,88.6,1,1,0,0,0,54,74.5);
-	this.movieClip_2.alpha = 0;
+	this.movieClip_2.setTransform(255.1,104.6,1,0.342,0,0,0,54,74.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.movieClip_2).wait(80));
 
@@ -278,13 +277,12 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.movieClip_1 = new lib.Symbol1();
 	this.movieClip_1.name = "movieClip_1";
 	this.movieClip_1.parent = this;
-	this.movieClip_1.setTransform(372.6,157.6,0.344,0.597,0,0,0,0.1,0.1);
-	this.movieClip_1.alpha = 0;
+	this.movieClip_1.setTransform(388.1,146,0.344,0.562,0,0,0,0.1,0.2);
 
 	this.timeline.addTween(cjs.Tween.get(this.movieClip_1).wait(80));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(412.5,163.6,812,238.5);
+p.nominalBounds = new cjs.Rectangle(412.5,182.9,812,219.1);
 // library properties:
 lib.properties = {
 	id: '37679E28A1224BAAB7D259BCF0389678',
