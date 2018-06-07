@@ -261,6 +261,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.movieClip_3.name = "movieClip_3";
 	this.movieClip_3.parent = this;
 	this.movieClip_3.setTransform(142.6,137.6,0.344,0.475,0,0,0,0.1,0.2);
+	this.movieClip_3.alpha = 0;
 
 	this.timeline.addTween(cjs.Tween.get(this.movieClip_3).wait(80));
 
@@ -269,6 +270,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.movieClip_2.name = "movieClip_2";
 	this.movieClip_2.parent = this;
 	this.movieClip_2.setTransform(255.1,88.6,1,1,0,0,0,54,74.5);
+	this.movieClip_2.alpha = 0;
 
 	this.timeline.addTween(cjs.Tween.get(this.movieClip_2).wait(80));
 
@@ -277,6 +279,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.movieClip_1.name = "movieClip_1";
 	this.movieClip_1.parent = this;
 	this.movieClip_1.setTransform(372.6,157.6,0.344,0.597,0,0,0,0.1,0.1);
+	this.movieClip_1.alpha = 0;
 
 	this.timeline.addTween(cjs.Tween.get(this.movieClip_1).wait(80));
 
@@ -289,7 +292,7 @@ lib.properties = {
 	height: 300,
 	fps: 24,
 	color: "#FFFFFF",
-	opacity: 1.00,
+	opacity: 0.00,
 	manifest: [
 		{src:"images/map_1.png", id:"map_1"},
 		{src:"images/pin_2x.png", id:"pin_2x"},
