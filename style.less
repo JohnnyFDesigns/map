@@ -1,0 +1,92 @@
+@import "grid.less";
+
+#a-map{
+	background: url('images/map_1.png');
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: contain;
+	width: 100%;
+	max-width: 825px;
+	height: 300px;
+	position: relative;
+	margin: auto;
+	.shadow{
+	}
+	.marker{
+		position: absolute;
+		max-width: 50px;
+		bottom: 115px;
+		.shadow:after{
+			background: url('images/pin_shadow.png');
+			background-repeat: no-repeat;
+			background-position: 50%;
+			content:"";
+			height: 5px;
+			width: 100%;
+			position: absolute;
+			bottom: -10px;
+		}
+		img{
+			max-width: 100%;
+		}
+		&.marker-1{
+			left: 20%;
+			img{
+				animation: bounce 0.3s infinite alternate;
+				animation-delay: 0.2s;
+			}
+		}
+		&.marker-2{
+			left: 30%;			
+			bottom: 180px;
+			img{
+				animation: bounce 0.3s infinite alternate;
+				animation-delay: 0.1s;
+			}
+		}
+		&.marker-3{
+			left: 40%;
+			bottom: 100px;			
+			max-width: 80px;
+			img{
+				animation: bounce 0.3s infinite alternate;
+				animation-delay: 0.3s;
+			}
+		}
+		&.marker-4{
+			left: 55%;	
+			bottom: 155px;		
+			max-width: 65px;
+		}
+		&.marker-5{
+			left: 63%;
+			bottom: 110px;
+		}
+		&.marker-6{
+			left: 70%;
+			bottom: 160px;
+		}
+		&.marker-7{
+			left: 80%;
+			bottom: 105px;
+		}
+	}
+}
+
+
+@keyframes bounce {
+	from {
+		transform: translateY(0px);
+	}
+	to {
+		transform: translateY(-15px);
+	}
+}
+@-webkit-keyframes bounce {
+	from {
+		transform: translateY(0px);
+	}
+	to {
+		transform: translateY(-15px);
+	}
+}
